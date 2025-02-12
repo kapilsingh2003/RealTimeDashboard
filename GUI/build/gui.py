@@ -11,7 +11,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"D:\PYTHON\GUI\build\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\kapil\Documents\GitHub\RealTimeDashboard\GUI\build\assets\frame0")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -20,7 +20,7 @@ def relative_to_assets(path: str) -> Path:
 
 window = Tk()
 
-window.geometry("1440x720")
+window.geometry("1076x720")
 window.configure(bg = "#EDEDED")
 
 
@@ -28,7 +28,7 @@ canvas = Canvas(
     window,
     bg = "#EDEDED",
     height = 720,
-    width = 1440,
+    width = 1076,
     bd = 0,
     highlightthickness = 0,
     relief = "ridge"
@@ -167,25 +167,9 @@ image_6 = canvas.create_image(
 image_image_7 = PhotoImage(
     file=relative_to_assets("image_7.png"))
 image_7 = canvas.create_image(
-    1144.0,
-    195.0,
-    image=image_image_7
-)
-
-image_image_8 = PhotoImage(
-    file=relative_to_assets("image_8.png"))
-image_8 = canvas.create_image(
-    1314.0,
-    195.0,
-    image=image_image_8
-)
-
-image_image_9 = PhotoImage(
-    file=relative_to_assets("image_9.png"))
-image_9 = canvas.create_image(
-    809.0,
+    642.0,
     490.0,
-    image=image_image_9
+    image=image_image_7
 )
 
 canvas.create_text(
@@ -234,24 +218,6 @@ canvas.create_text(
 )
 
 canvas.create_text(
-    1082.4000244140625,
-    147.89999389648438,
-    anchor="nw",
-    text="getDeviceEntitlements",
-    fill="#000000",
-    font=("Poppins Regular", 11 * -1)
-)
-
-canvas.create_text(
-    1256.4000244140625,
-    147.89999389648438,
-    anchor="nw",
-    text="getNetworkDeviceList",
-    fill="#000000",
-    font=("Poppins Regular", 11 * -1)
-)
-
-canvas.create_text(
     249.0,
     163.0,
     anchor="nw",
@@ -290,24 +256,6 @@ canvas.create_text(
 canvas.create_text(
     753.0,
     162.0,
-    anchor="nw",
-    text="7",
-    fill="#000000",
-    font=("Poppins Bold", 75 * -1)
-)
-
-canvas.create_text(
-    1089.0,
-    163.0,
-    anchor="nw",
-    text="7",
-    fill="#000000",
-    font=("Poppins Bold", 75 * -1)
-)
-
-canvas.create_text(
-    1259.0,
-    163.0,
     anchor="nw",
     text="7",
     fill="#000000",
@@ -359,24 +307,6 @@ canvas.create_text(
     font=("Poppins Bold", 29 * -1)
 )
 
-canvas.create_text(
-    1148.0,
-    202.0,
-    anchor="nw",
-    text="ms",
-    fill="#000000",
-    font=("Poppins Bold", 29 * -1)
-)
-
-canvas.create_text(
-    1318.0,
-    202.0,
-    anchor="nw",
-    text="ms",
-    fill="#000000",
-    font=("Poppins Bold", 29 * -1)
-)
-
 canvas.create_rectangle(
     358.5999755859375,
     237.5,
@@ -410,22 +340,6 @@ canvas.create_rectangle(
     outline="")
 
 canvas.create_rectangle(
-    1198.0,
-    236.0,
-    1211.3000001907349,
-    249.30000019073486,
-    fill="#000000",
-    outline="")
-
-canvas.create_rectangle(
-    1368.0,
-    236.0,
-    1381.3000001907349,
-    249.30000019073486,
-    fill="#000000",
-    outline="")
-
-canvas.create_rectangle(
     862.5999755859375,
     237.5,
     875.8999757766724,
@@ -445,7 +359,7 @@ canvas.create_text(
 canvas.create_rectangle(
     228.0,
     65.0,
-    1391.0,
+    1056.0,
     72.0,
     fill="#D9D9D9",
     outline="")
