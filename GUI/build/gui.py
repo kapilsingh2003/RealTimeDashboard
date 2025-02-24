@@ -62,18 +62,592 @@ button_1 = Button(
 )
 button_1.place(
     x=20.0,
-    y=98.0,
+    y=644.0999755859375,
     width=149.10000610351562,
     height=39.900001525878906
 )
 
+image_image_2 = PhotoImage(
+    file=relative_to_assets("image_2.png"))
+image_2 = canvas.create_image(
+    719.0,
+    395.0,
+    image=image_image_2
+)
+
 canvas.create_text(
-    587.0,
-    84.0,
+    227.0,
+    17.0,
     anchor="nw",
-    text="Average Response Times (1D)",
+    text="Analytics",
     fill="#000000",
-    font=("Poppins Regular", 18 * -1)
+    font=("Poppins Bold", 32 * -1)
+)
+
+canvas.create_text(
+    255.0,
+    113.0,
+    anchor="nw",
+    text="Weekly Analytics",
+    fill="#000000",
+    font=("Poppins Bold", 24 * -1)
+)
+
+canvas.create_rectangle(
+    228.0,
+    67.0,
+    1223.0,
+    74.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    486.0,
+    131.0,
+    1193.0,
+    136.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_text(
+    255.0,
+    157.0,
+    anchor="nw",
+    text="2131",
+    fill="#000000",
+    font=("Poppins Bold", 64 * -1)
+)
+
+canvas.create_text(
+    255.0,
+    240.0,
+    anchor="nw",
+    text="Requests This Week",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    309.0,
+    580.0,
+    anchor="nw",
+    text="Request Wise Frequency",
+    fill="#000000",
+    font=("Poppins Bold", 14 * -1)
+)
+
+canvas.create_rectangle(
+    510.0,
+    589.0,
+    1193.0,
+    592.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    248.0,
+    591.0,
+    292.0,
+    594.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    445.0,
+    627.0,
+    485.0,
+    629.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    1034.0,
+    627.0,
+    1074.0,
+    629.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    445.0,
+    657.0,
+    485.0,
+    659.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    741.0,
+    627.0,
+    781.0,
+    629.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    1034.0,
+    657.0,
+    1074.0,
+    659.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    741.0,
+    657.0,
+    781.0,
+    659.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_text(
+    248.0,
+    615.0,
+    anchor="nw",
+    text="Enable Devices",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    837.0,
+    615.0,
+    anchor="nw",
+    text="Remove Entitlements",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    248.0,
+    645.0,
+    anchor="nw",
+    text="Add Entitlements",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    544.0,
+    615.0,
+    anchor="nw",
+    text="Disable Devices",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    837.0,
+    645.0,
+    anchor="nw",
+    text="Remove All Entitlements",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    544.0,
+    645.0,
+    anchor="nw",
+    text="Get Device Entitlements",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    491.0,
+    615.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    1080.0,
+    615.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    491.0,
+    645.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    787.0,
+    615.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    1080.0,
+    645.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    787.0,
+    645.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    316.0,
+    289.0,
+    anchor="nw",
+    text="Request Wise Frequency",
+    fill="#000000",
+    font=("Poppins Bold", 14 * -1)
+)
+
+canvas.create_rectangle(
+    517.0,
+    298.0,
+    1193.0,
+    301.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    255.0,
+    300.0,
+    299.0,
+    303.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    452.0,
+    336.0,
+    492.0,
+    338.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    1041.0,
+    336.0,
+    1081.0,
+    338.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    452.0,
+    366.0,
+    492.0,
+    368.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    748.0,
+    336.0,
+    788.0,
+    338.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    1041.0,
+    366.0,
+    1081.0,
+    368.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_rectangle(
+    748.0,
+    366.0,
+    788.0,
+    368.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_text(
+    255.0,
+    324.0,
+    anchor="nw",
+    text="Enable Devices",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    844.0,
+    324.0,
+    anchor="nw",
+    text="Remove Entitlements",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    255.0,
+    354.0,
+    anchor="nw",
+    text="Add Entitlements",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    551.0,
+    324.0,
+    anchor="nw",
+    text="Disable Devices",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    844.0,
+    354.0,
+    anchor="nw",
+    text="Remove All Entitlements",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    551.0,
+    354.0,
+    anchor="nw",
+    text="Get Device Entitlements",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    498.0,
+    324.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    1087.0,
+    324.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    498.0,
+    354.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    794.0,
+    324.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    1087.0,
+    354.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    794.0,
+    354.0,
+    anchor="nw",
+    text="4",
+    fill="#000000",
+    font=("Poppins Bold", 16 * -1)
+)
+
+canvas.create_text(
+    502.58984375,
+    158.0,
+    anchor="nw",
+    text="4.2 ",
+    fill="#000000",
+    font=("Poppins Bold", 64 * -1)
+)
+
+canvas.create_text(
+    619.1025390625,
+    185.0,
+    anchor="nw",
+    text="%",
+    fill="#000000",
+    font=("Poppins Bold", 36 * -1)
+)
+
+canvas.create_text(
+    502.58984375,
+    240.0,
+    anchor="nw",
+    text="Failure Rate",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    760.26220703125,
+    158.0,
+    anchor="nw",
+    text="36",
+    fill="#000000",
+    font=("Poppins Bold", 64 * -1)
+)
+
+canvas.create_text(
+    760.26220703125,
+    240.0,
+    anchor="nw",
+    text="Requests Failed",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    1005.611328125,
+    157.0,
+    anchor="nw",
+    text="36",
+    fill="#000000",
+    font=("Poppins Bold", 64 * -1)
+)
+
+canvas.create_text(
+    1005.611328125,
+    240.0,
+    anchor="nw",
+    text="Requests Failed",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    248.0,
+    401.0,
+    anchor="nw",
+    text="Daily Analytics",
+    fill="#000000",
+    font=("Poppins Bold", 24 * -1)
+)
+
+canvas.create_rectangle(
+    455.0,
+    416.0,
+    1193.0,
+    421.0,
+    fill="#D9D9D9",
+    outline="")
+
+canvas.create_text(
+    248.0,
+    445.0,
+    anchor="nw",
+    text="392",
+    fill="#000000",
+    font=("Poppins Bold", 64 * -1)
+)
+
+canvas.create_text(
+    248.0,
+    534.0,
+    anchor="nw",
+    text="Requests Today",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    495.58984375,
+    446.0,
+    anchor="nw",
+    text="3.4 ",
+    fill="#000000",
+    font=("Poppins Bold", 64 * -1)
+)
+
+canvas.create_text(
+    612.1025390625,
+    473.0,
+    anchor="nw",
+    text="%",
+    fill="#000000",
+    font=("Poppins Bold", 36 * -1)
+)
+
+canvas.create_text(
+    495.58984375,
+    528.0,
+    anchor="nw",
+    text="Failure Rate",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    753.26220703125,
+    446.0,
+    anchor="nw",
+    text="12",
+    fill="#000000",
+    font=("Poppins Bold", 64 * -1)
+)
+
+canvas.create_text(
+    753.26220703125,
+    528.0,
+    anchor="nw",
+    text="Requests Failed",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
+)
+
+canvas.create_text(
+    998.611328125,
+    445.0,
+    anchor="nw",
+    text="36",
+    fill="#000000",
+    font=("Poppins Bold", 64 * -1)
+)
+
+canvas.create_text(
+    998.611328125,
+    528.0,
+    anchor="nw",
+    text="Requests Failed",
+    fill="#000000",
+    font=("Poppins Regular", 16 * -1)
 )
 
 button_image_2 = PhotoImage(
@@ -86,8 +660,8 @@ button_2 = Button(
     relief="flat"
 )
 button_2.place(
-    x=20.0,
-    y=153.0,
+    x=19.0,
+    y=100.0,
     width=149.10000610351562,
     height=39.900001525878906
 )
@@ -102,8 +676,8 @@ button_3 = Button(
     relief="flat"
 )
 button_3.place(
-    x=20.0,
-    y=207.0,
+    x=19.0,
+    y=155.0,
     width=149.10000610351562,
     height=39.900001525878906
 )
@@ -118,293 +692,10 @@ button_4 = Button(
     relief="flat"
 )
 button_4.place(
-    x=20.0,
-    y=644.0999755859375,
+    x=19.0,
+    y=209.0,
     width=149.10000610351562,
     height=39.900001525878906
 )
-
-image_image_2 = PhotoImage(
-    file=relative_to_assets("image_2.png"))
-image_2 = canvas.create_image(
-    304.0,
-    195.0,
-    image=image_image_2
-)
-
-image_image_3 = PhotoImage(
-    file=relative_to_assets("image_3.png"))
-image_3 = canvas.create_image(
-    472.0,
-    195.0,
-    image=image_image_3
-)
-
-image_image_4 = PhotoImage(
-    file=relative_to_assets("image_4.png"))
-image_4 = canvas.create_image(
-    640.0,
-    195.0,
-    image=image_image_4
-)
-
-image_image_5 = PhotoImage(
-    file=relative_to_assets("image_5.png"))
-image_5 = canvas.create_image(
-    976.0,
-    195.0,
-    image=image_image_5
-)
-
-image_image_6 = PhotoImage(
-    file=relative_to_assets("image_6.png"))
-image_6 = canvas.create_image(
-    809.0,
-    195.0,
-    image=image_image_6
-)
-
-image_image_7 = PhotoImage(
-    file=relative_to_assets("image_7.png"))
-image_7 = canvas.create_image(
-    1144.0,
-    195.0,
-    image=image_image_7
-)
-
-image_image_8 = PhotoImage(
-    file=relative_to_assets("image_8.png"))
-image_8 = canvas.create_image(
-    726.0,
-    490.0,
-    image=image_image_8
-)
-
-canvas.create_text(
-    249.39999389648438,
-    147.89999389648438,
-    anchor="nw",
-    text="enableDevices",
-    fill="#000000",
-    font=("Poppins Regular", 11 * -1)
-)
-
-canvas.create_text(
-    417.4000244140625,
-    147.89999389648438,
-    anchor="nw",
-    text="disableDevices",
-    fill="#000000",
-    font=("Poppins Regular", 11 * -1)
-)
-
-canvas.create_text(
-    585.4000244140625,
-    147.89999389648438,
-    anchor="nw",
-    text="addEntitlements",
-    fill="#000000",
-    font=("Poppins Regular", 11 * -1)
-)
-
-canvas.create_text(
-    915.4000244140625,
-    146.89999389648438,
-    anchor="nw",
-    text="removeAllEntitlements",
-    fill="#000000",
-    font=("Poppins Regular", 11 * -1)
-)
-
-canvas.create_text(
-    747.4000244140625,
-    145.89999389648438,
-    anchor="nw",
-    text="removeEntitlements",
-    fill="#000000",
-    font=("Poppins Regular", 11 * -1)
-)
-
-canvas.create_text(
-    1082.4000244140625,
-    147.89999389648438,
-    anchor="nw",
-    text="getDeviceEntitlements",
-    fill="#000000",
-    font=("Poppins Regular", 11 * -1)
-)
-
-canvas.create_text(
-    249.0,
-    163.0,
-    anchor="nw",
-    text="7",
-    fill="#000000",
-    font=("Poppins Bold", 75 * -1)
-)
-
-canvas.create_text(
-    417.0,
-    162.0,
-    anchor="nw",
-    text="7",
-    fill="#000000",
-    font=("Poppins Bold", 75 * -1)
-)
-
-canvas.create_text(
-    585.0,
-    162.0,
-    anchor="nw",
-    text="7",
-    fill="#000000",
-    font=("Poppins Bold", 75 * -1)
-)
-
-canvas.create_text(
-    921.0,
-    162.0,
-    anchor="nw",
-    text="7",
-    fill="#000000",
-    font=("Poppins Bold", 75 * -1)
-)
-
-canvas.create_text(
-    753.0,
-    162.0,
-    anchor="nw",
-    text="7",
-    fill="#000000",
-    font=("Poppins Bold", 75 * -1)
-)
-
-canvas.create_text(
-    1089.0,
-    163.0,
-    anchor="nw",
-    text="7",
-    fill="#000000",
-    font=("Poppins Bold", 75 * -1)
-)
-
-canvas.create_text(
-    309.0,
-    202.0,
-    anchor="nw",
-    text="ms",
-    fill="#000000",
-    font=("Poppins Bold", 29 * -1)
-)
-
-canvas.create_text(
-    475.0,
-    202.0,
-    anchor="nw",
-    text="ms",
-    fill="#000000",
-    font=("Poppins Bold", 29 * -1)
-)
-
-canvas.create_text(
-    646.0,
-    202.0,
-    anchor="nw",
-    text="ms",
-    fill="#000000",
-    font=("Poppins Bold", 29 * -1)
-)
-
-canvas.create_text(
-    982.0,
-    202.0,
-    anchor="nw",
-    text="ms",
-    fill="#000000",
-    font=("Poppins Bold", 29 * -1)
-)
-
-canvas.create_text(
-    813.0,
-    202.0,
-    anchor="nw",
-    text="ms",
-    fill="#000000",
-    font=("Poppins Bold", 29 * -1)
-)
-
-canvas.create_text(
-    1148.0,
-    202.0,
-    anchor="nw",
-    text="ms",
-    fill="#000000",
-    font=("Poppins Bold", 29 * -1)
-)
-
-canvas.create_rectangle(
-    358.5999755859375,
-    237.5,
-    371.89997577667236,
-    250.80000019073486,
-    fill="#000000",
-    outline="")
-
-canvas.create_rectangle(
-    526.5999755859375,
-    237.5,
-    539.8999757766724,
-    250.80000019073486,
-    fill="#000000",
-    outline="")
-
-canvas.create_rectangle(
-    694.5999755859375,
-    237.5,
-    707.8999757766724,
-    250.80000019073486,
-    fill="#000000",
-    outline="")
-
-canvas.create_rectangle(
-    1030.5999755859375,
-    239.5,
-    1043.8999757766724,
-    252.80000019073486,
-    fill="#000000",
-    outline="")
-
-canvas.create_rectangle(
-    1198.0,
-    236.0,
-    1211.3000001907349,
-    249.30000019073486,
-    fill="#000000",
-    outline="")
-
-canvas.create_rectangle(
-    862.5999755859375,
-    237.5,
-    875.8999757766724,
-    250.80000019073486,
-    fill="#000000",
-    outline="")
-
-canvas.create_text(
-    227.0,
-    17.0,
-    anchor="nw",
-    text="Dashboard",
-    fill="#000000",
-    font=("Poppins Bold", 32 * -1)
-)
-
-canvas.create_rectangle(
-    228.0,
-    65.0,
-    1221.0,
-    72.0,
-    fill="#D9D9D9",
-    outline="")
 window.resizable(False, False)
 window.mainloop()
